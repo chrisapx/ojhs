@@ -1,6 +1,5 @@
 
 
-
 const about = () => {
   return(
     <section>
@@ -12,13 +11,7 @@ const about = () => {
       </div>
       <div className="container mx-10">
         <p className="mt-5 text-charcoal">
-        Jericho High School started in 1954 as a small demonstration Junior Secondary School in the neighborhood of Kyambogo Teacher Training College now known as Kyambogo University.  It is located on the same hill with the Kabaka of Buganda’s palace at Banda.
-
-        It started in a small building with few students and staff with a primary motive of according the college tutors and student teachers opportunity to carry out demonstration lessons.
-
-        Growth and Expansion
-
-        When the Government Teacher Training College became National Teachers’ College in 1965, Kyambogo Demonstration School continued to serve the new college as before.
+          Jericho High School 
         </p>
       </div>
 

@@ -31,7 +31,7 @@ const contact = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
             </svg>
 
-            P. O. Box 20142 Kyambogo Kampala
+            P. O. Box 20142 Kampala
             </p>
             <p className="py-2 text-charcoal flex gap-4 items-center">
 
