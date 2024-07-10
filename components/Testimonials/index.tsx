@@ -17,7 +17,7 @@ const postData: DataType[] = [
     {
         name: "Opio Raymond",
         profession: 'Student, S6',
-        comment: 'Kyambogo College School provides a strong academic foundation, and the teachers are dedicated to helping students excel.',
+        comment: 'Jericho High School provides a strong academic foundation, and the teachers are dedicated to helping students excel.',
         imgSrc: '/assets/testimonial/user.svg',
     },
     {
@@ -29,7 +29,7 @@ const postData: DataType[] = [
     {
         name: "Cody Fisher",
         profession: 'Teacher',
-        comment: 'Kyambogo College School has a wide range of extracurricular activities that cater to diverse interests, helping students develop holistically.',
+        comment: 'Jericho High School has a wide range of extracurricular activities that cater to diverse interests, helping students develop holistically.',
         imgSrc: '/assets/mentor/user3.png',
     },
     {
@@ -47,7 +47,7 @@ const postData: DataType[] = [
     {
         name: "Opit michael",
         profession: 'Student, S2',
-        comment: 'Kyambogo College School is committed to innovative teaching methods and integrating technology into the curriculum.',
+        comment: 'jericho High School is committed to innovative teaching methods and integrating technology into the curriculum.',
         imgSrc: '/assets/mentor/user3.png',
     },
 ]
@@ -66,9 +66,9 @@ export default class MultipleItems extends Component {
             // centerMode: true,
             slidesToScroll: 2,
             arrows: false,
-            autoplay: false,
+            autoplay: true,
             speed: 500,
-            autoplaySpeed: 2000,
+            // autoplaySpeed: 2000,
             cssEase: "linear",
             responsive: [
                 {
