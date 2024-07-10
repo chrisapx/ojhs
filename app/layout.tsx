@@ -4,7 +4,7 @@ import Footer from '../components/Footer/Footer';
 
 
 export const metadata = {
-  title: 'Kyambogo college school',
+  title: 'Jericho High school',
   description: 'Center of learning',
 }
 
