@@ -32,7 +32,7 @@ const postData: DataType[] = [
     },
     {
         heading: 'Top performers',
-        heading2: 'At Kyambogo college',
+        heading2: 'At bogo college',
         nickname: 'academics',
         imgSrc: '/assets/pic1.jpg',
 

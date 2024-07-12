@@ -13,7 +13,7 @@ const Banner = () => {
                             <Image src="/assets/banner/check.svg" alt="check-image" width={20} height={20} />
                             <h3 className='text-kellygreen text-sm font-semibold text-center lg:text-start'>Contact us to enroll</h3>
                         </div>
-                        <h1 className='text-[#2f66a6] text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>Welcome to Kyambogo College School.</h1>
+                        <h1 className='text-[#2f66a6] text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>Welcome to Jericho High School.</h1>
                         <h3 className='text-charcoal text-lg font-normal text-center lg:text-start opacity-75 pt-5 lg:pt-0'>Providing affordable, equitable and all round education with scientific, technical and attitude so as to create useful citizens</h3>
 
                         <div className="relative text-white focus-within:text-white flex flex-row-reverse input-shadow rounded-full pt-5 lg:pt-0">

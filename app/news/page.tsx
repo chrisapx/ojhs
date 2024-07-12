@@ -2,16 +2,12 @@
 
 import Slider from "react-slick";
 import React, { Component } from "react";
-import Link from "next/link";
 import Image from "next/image";
-import { StarIcon } from '@heroicons/react/24/solid'
-import { Button } from "@/components/ui/button"
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
-  DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
 
@@ -27,17 +23,17 @@ interface DataType {
 
 const newsData: DataType[] = [
     {
-      heading: 'Clarification on Term One 2024 Fees Structure at Kyambogo College School',
+      heading: 'Clarification on Term One 2024 Fees Structure at Jericho School',
       nickname: 'Fees',
       imgSrc: '/assets/obs.jpeg',
-      news: "In response to recent discussions stemming from partial school circulars shared online, Kyambogo College School aims to clarify the 2024 term one fees structure.<br><br>Contrary to social media claims, there was no arbitrary fee increase. Over the years, fees in term one have consistently been higher than in the second and third terms due to items paid once a year, such as Uneb registration, PTA Subscription, Students’ attendance swiping card, Calendar, and Magazine.<br><br>It’s essential to note that the only new fee included in the structure for the year 2024 is the Kyambogo College School Platinum celebration of Ug shs 50,000/=, as agreed upon in the Annual General Parent’s meeting to be paid in term one and two 2024.<br><br>Kyambogo College School is a government school with some staff on the government payroll; however, it differs from USE schools – relying on supplementary fees for certain operational costs, meals, and developments.<br><br>We appreciate public feedback and are committed to transparency. For inquiries or additional information, please contact the school administration. We value your understanding and continued support in ensuring each student receives the best possible education at Kyambogo College School.<br><br>Sincerely,<br>Mugume Stanley,<br>Headteacher"
+      news: "In response to recent discussions stemming from partial school circulars shared online, Jericho High School aims to clarify the 2024 term one fees structure.<br><br>Contrary to social media claims, there was no arbitrary fee increase. Over the years, fees in term one have consistently been higher than in the second and third terms due to items paid once a year, such as Uneb registration, PTA Subscription, Students’ attendance swiping card, Calendar, and Magazine.<br><br>It’s essential to note that the only new fee included in the structure for the year 2024 is the Jericho High School Platinum celebration of Ug shs 50,000/=, as agreed upon in the Annual General Parent’s meeting to be paid in term one and two 2024.<br><br>Jericho High School is a government school with some staff on the government payroll; however, it differs from USE schools – relying on supplementary fees for certain operational costs, meals, and developments.<br><br>We appreciate public feedback and are committed to transparency. For inquiries or additional information, please contact the school administration. We value your understanding and continued support in ensuring each student receives the best possible education at Jericho High School.<br><br>Sincerely,<br>Mugume Stanley,<br>Headteacher"
 
     },
     {
         heading: 'Sports',
         nickname: 'Sports',
         imgSrc: '/assets/obs.jpeg',
-        news: "The one-month sports session at Kyambogo College School showcased the talent and dedication of the six houses: Panther, Elephant, Cheetah, Lion, Rhino, and Tiger. The session included various outdoor and indoor games, culminating in an Athletics competition.<br><br>\
+        news: "The one-month sports session at Jericho High School showcased the talent and dedication of the six houses: Panther, Elephant, Cheetah, Lion, Rhino, and Tiger. The session included various outdoor and indoor games, culminating in an Athletics competition.<br><br>\
             Esteemed guests such as Mr. Mukesh Babubhai Shukla, Hon. Peter Ogwang, and Prof. Eli Katunguka Rwakishaya graced the sports day, highlighting the event's significance in promoting sports and unity.<br><br>\
             The sports session featured competitive fixtures in Volleyball, Basketball, Netball, Handball, Touch Rugby, Chess, Badminton, Ludo, Table Tennis, and a football tournament. A challenging Cross Country event tested participants' endurance, with girls running 5km and boys 7.5km.<br><br>\
             The Athletics competition included sprints, relays, and various age categories. The event concluded with the winning house receiving cash prizes and a healthy cow.<br><br>\
@@ -48,13 +44,13 @@ const newsData: DataType[] = [
         heading: 'Top performers',
         nickname: 'academics',
         imgSrc: '/assets/pic1.jpg',
-        news: "Kyambogo College School has demonstrated its excellence by producing top performers in the recent UNEB senior six results. Six outstanding students have made the school proud:<br><br>\
+        news: "Jerichi High School has demonstrated its excellence by producing top performers in the recent UNEB senior six results. Six outstanding students have made the school proud:<br><br>\
             - Muyanja Wilberforce (PEM) and Mwima Caleb (PCM) both scored 18 points.<br>\
             - Kayanja S Titus (HEG) scored 18 points.<br>\
             - Jibwa Deborah (HED) scored 17 points.<br>\
             - Wamala Mike (MEG) scored 17 points.<br>\
             - Asingye Samuel (HEL) scored 17 points.<br><br>\
-            Their exceptional performances reflect their hard work and the quality of education at Kyambogo College School. The school's commitment to holistic education, character development, and leadership skills has enabled its students to excel. These achievements set a high standard for academic excellence and will inspire future generations of students.<br><br>\
+            Their exceptional performances reflect their hard work and the quality of education at Jericho High School. The school's commitment to holistic education, character development, and leadership skills has enabled its students to excel. These achievements set a high standard for academic excellence and will inspire future generations of students.<br><br>\
             DUC IN ALTUM"
 
     }

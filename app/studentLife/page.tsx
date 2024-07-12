@@ -9,7 +9,7 @@ const studentLife = () => {
       </div>
       <div className="mx-5 px-3">
         <h1 className="text-3xl mt-5 pt-3 text-[#2f66a6]">UNIFORM</h1>
-        <p className="my-2 py-2 text-charcoal">All students of Kyambogo College School wear a white short sleeved shirt with a badge of Kyambogo college school.</p>
+        <p className="my-2 py-2 text-charcoal">All students of Jericho High School wear a white short sleeved shirt with a badge of jericho High school.</p>
         <p className="my-2 py-2 text-charcoal">The students come to school dressed in clean full school uniform.</p>
         <p className="my-2 py-2 text-charcoal">S.1 and S.2 wear grey shorts/skirts</p>
         <p className="my-2 py-2 text-charcoal">S.3 and S.4 wear grey trousers/skirts</p>
