@@ -52,7 +52,7 @@ const Navbar = () => {
         <div >
             <>
                 <div className="mx-auto max-w-7xl px-12 py-2 lg:px-12">
-                    <div className="relative flex h-12 md:h-20 items-center justify-between">
+                    <div className="relative flex h-6 md:h-16 items-center justify-between">
                         <div className="flex flex-1 items-center sm:items-stretch sm:justify-start flex-nowrap">
 
                             {/* LOGO */}
@@ -74,7 +74,7 @@ const Navbar = () => {
 
                             <div className="hidden lg:block m-auto">
                                 <div className="flex items-center">
-                                {navigation.map((item) => (
+                                { navigation.map((item) => (
                                         <CustomLink
                                             key={item.name}
                                             href={item.href}
