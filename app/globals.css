@@ -19,6 +19,7 @@ html:not([data-scroll="0"]) .navbar {
     top: 0;
     width: 100%;
     background-color: white !important;
+    /* color: rgb(173, 40, 40); */
     opacity: 1.9;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
     transition: 0.4s linear;
@@ -140,16 +141,16 @@ hr {
 }
 
 .shadow-courses {
-    box-shadow: 0px 40px 20px #2f66a6;
+    box-shadow: 0px 10px 10px #f48993;
 }
 
 .testimonial-shadow {
-    box-shadow: 0px 5.54348px 11.087px #2f66a6;
+    box-shadow: 0px 5.54348px 11.087px #f48993;
     border-radius: 22.1739px;
 }
 
 .middleDiv {
-    box-shadow: 5.54348px 38.8043px 110.87px #2f66a6!important;
+    box-shadow: 5.54348px 38.8043px 110.87px #f48993!important;
     border-radius: 22.1739px;
     transform: scale(1.05);
 }
@@ -169,7 +170,9 @@ hr {
 }
 
 .bg-imagee {
-    background-image: url('/assets/newsletter/bgFile.png');
+    /* background-image: url('/assets/newsletter/bgFile.png'); */
+    background-color: #d0d0d0;
+    margin-inline: 20px;
     background-size: cover;
     border-radius: 20px;
 }

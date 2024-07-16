@@ -85,11 +85,11 @@ export default class MultipleItems extends Component {
             <div className='text-center my-20'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 className="text-[#2f66a6] text-2xl font-semibold">Gallery</h2>
-                    <div className="py-14">
+                    <div className="py-4">
                         <Slider {...settings}>
                             {data.map((item, i) =>
-                                <div key={i}>
-                                    <Image src={item.imgSrc} alt={item.imgSrc} width={116} height={36} className="rounded-[5px]" />
+                                <div key={i} className="px-4">
+                                    <Image src={item.imgSrc} alt={item.imgSrc} width={116} height={36} className="rounded-[5px] w-full mr-4" />
                                 </div>
                             )}
                         </Slider>

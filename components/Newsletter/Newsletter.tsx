@@ -4,7 +4,7 @@ const Newsletter = () => {
     return (
         <>
             {/* <div className="mx-auto max-w-2xl md:max-w-7xl sm:rounded-3xl testimonialbg"> */}
-            <div className="mx-auto max-w-2xl md:max-w-7xl sm:rounded-3xl">
+            <div className="mx-auto max-w-2xl md:max-w-7xl sm:rounded-3xl mb-8">
                 <div className="grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-12 xl:gap-x-8">
 
                     <div className="col-span-12 bg-imagee">
@@ -15,11 +15,11 @@ const Newsletter = () => {
                             </h3>
 
                             <div>
-                                <div className="relative text-white focus-within:text-white flex flex-row-reverse rounded-full pt-5 lg:pt-0">
-                                    <input type="Email address" name="q" className="py-6 lg:py-8 text-sm md:text-lg w-full mx-3 text-black rounded-full pl-8 focus:outline-none focus:text-black" placeholder="Enter your email address" autoComplete="off" />
+                                <div className="relative text-white focus-within:text-white flex flex-row-reverse rounded-full lg:pt-0">
+                                    <input type="Email address" name="q" className="py-2 lg:py-4 text-sm md:text-md w-full mx-3 text-black rounded-full pl-8 focus:outline-none focus:text-black" placeholder="Enter your email address" autoComplete="off" />
                                     <div className="absolute inset-y-0 right-0 flex items-center pr-6 pt-5 lg:pt-0">
-                                        <button type="submit" className="p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-[#199326] hover:bg-[#2f66a6] duration-150 ease-in-out rounded-full">
-                                            <Image src={'/assets/newsletter/send.svg'} alt="send-icon" width={30} height={30} />
+                                        <button type="submit" className="p-2 lg:p-2 focus:outline-none focus:shadow-outline bg-[#199326] hover:bg-[#2f66a6] duration-150 ease-in-out rounded-full">
+                                            <Image src={'/assets/newsletter/send.svg'} alt="send-icon" width={15} height={15} />
                                         </button>
                                     </div>
                                 </div>

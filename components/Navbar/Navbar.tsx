@@ -49,9 +49,9 @@ const Navbar = () => {
     };
 
     return (
-        <Disclosure as="nav" className="navbar">
+        <div >
             <>
-                <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8">
+                <div className="mx-auto max-w-7xl px-12 py-2 lg:px-12">
                     <div className="relative flex h-12 md:h-20 items-center justify-between">
                         <div className="flex flex-1 items-center sm:items-stretch sm:justify-start flex-nowrap">
 
@@ -83,8 +83,8 @@ const Navbar = () => {
                                         >
                                             <span
                                                 className={classNames(
-                                                    item.href === currentLink ? 'underline-links text-sm text-[#2f66a6]' : 'text-[#2f66a6]',
-                                                    'px-3 py-4 font-normal opacity-75 hover:opacity-100 text-sm'
+                                                    item.href === currentLink ? 'border-b-4 border-b-[rgba(230,20,0)] text-sm text-[#2f66a6]' : 'text-[#2f66a6]',
+                                                    'px-3 py-2 font-normal opacity-75 hover:opacity-100 text-sm'
                                                 )}
                                                 aria-current={item.href ? 'page' : undefined}
                                             >
@@ -93,27 +93,6 @@ const Navbar = () => {
                                         </CustomLink>
                                     ))}
                                 </div>
-
-
-                                {/* <div className="flex-1 space-x-4">
-                                    {navigation.map((item) => (
-                                        <CustomLink
-                                            key={item.name}
-                                            href={item.href}
-                                            onClick={() => handleLinkClick(item.href)}
-                                        >
-                                            <span
-                                                className={classNames(
-                                                    item.href === currentLink ? 'underline-links' : 'text-slategray',
-                                                    'px-3 py-4 text-lg font-normal opacity-75 hover:opacity-100'
-                                                )}
-                                                aria-current={item.href ? 'page' : undefined}
-                                            >
-                                                {item.name}
-                                            </span>
-                                        </CustomLink>
-                                    ))}
-                                </div> */}
                             </div>
                         </div>
 
@@ -144,7 +123,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </>
-        </Disclosure>
+        </div>
     );
 };
 

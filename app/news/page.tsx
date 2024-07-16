@@ -97,34 +97,33 @@ const news = () => {
 
   return(
     <section>
-      <div>
-        <img src="/assets/canteen.jpg" alt="about image" className="w-full h-[400px]" />
-      </div>
-      <div className="flex justify-between">
-        <h1 className="text-4xl mx-auto -mt-20 text-white">School News</h1>
+      <div style={{ backgroundImage: 'src(/assets/aerial.jpg)'}} className="bg-pink h-[78vh] flex items-center justify-center">
+        {/* <img src="/assets/aerial.jpg" alt="about image" className="w-full h-[400px]" /> */}
+        <div className="text-4xl mx-auto text-red">School News</div>
       </div>
 
 
+      <h1 className="text-3xl mt-5 pt-3 text-[#2f66a6] text-center mb-4 ">News Letter</h1>
       <Slider {...settings}>
           {newsData.map((items, i) => (
               <div key={i}>
 
-                  <div className='bg-white m-3 px-3 pt-3 pb-12 my-20 shadow-courses rounded-2xl'>
+                  <div className='bg-white m-3 px-3 pt-3 pb-12 my-6 shadow-md rounded-2xl'>
                       <div className="relative rounded-3xl">
                           <Image src={items.imgSrc} alt="gaby" width={389} height={262} className="m-auto clipPath" />
-                          <div className="absolute right-5 -bottom-2 bg-ultramarine rounded-full p-6 ">
-                              <h3 className="text-white uppercase text-center text-sm font-medium ">{items.nickname}</h3>
+                          <div className="absolute right-5 -bottom-2 border-2 bg-white rounded-full p-6 ">
+                              <h3 className=" text-center text-sm ">{items.nickname}</h3>
                           </div>
                       </div>
 
                       <div className="px-3">
-                          <h4 className='text-2xl font-bold pt-6 text-black'>{items.heading}</h4>
+                          <h4 className='text-xl font-medium pt-3 text-black'>{items.heading}</h4>
                           <hr style={{ color: "#C4C4C4" }} />
                       </div>
                       <div>
 
                         <Dialog>
-                          <DialogTrigger><h1 className="bg-[#199326] rounded-[5px] mt-5 p-3 text-white">Read More...</h1></DialogTrigger>
+                          <DialogTrigger><h1 className=" rounded-[5px] border mt-5 p-3">Read More...</h1></DialogTrigger>
                           <DialogContent className="bg-charcoal">
                             <DialogHeader className="bg-charcoal">
 

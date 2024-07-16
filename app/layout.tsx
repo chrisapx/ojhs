@@ -15,8 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
+      <body className=''>
+        <div className='sticky top-0 z-index-49 bg-white shadow-md' style={{ zIndex: 1000}}>
+          <Navbar />
+        </div>
         {children}
         <Footer />
       </body>
